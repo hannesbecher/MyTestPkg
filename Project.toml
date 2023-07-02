@@ -1,0 +1,13 @@
+name = "MyTestPkg"
+uuid = "ac636dd5-26d7-40b8-b5da-228a62f2ce77"
+authors = ["Hannes Becher"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
